@@ -51,6 +51,22 @@ $(document).ready(function () {
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="target">
+                                        <center>
+                                            <img class="img-item" src="assets/imagenes/tec.jpg">
+                                        </center>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="target">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, quia! Suscipit eius voluptas
+                                        nesciunt, libero atque ducimus dolorum autem iusto consectetur error, harum accusamus, id quisquam
+                                        labore culpa quo? Qui.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>`;
         contenedor.innerHTML = html;

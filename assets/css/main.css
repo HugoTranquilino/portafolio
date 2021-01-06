@@ -44,7 +44,8 @@ a {
 }
 
 .content {
-    color: var(--blanco);
+    /* color: var(--blanco); */
+    color: var(--gray-dark);
 }
 
 .target {
