@@ -1,0 +1,78 @@
+:root {
+    --verde: #56e05d;
+    --blanco: #ffffff;
+    --gris: #eee7e78a;
+    --azul:#233CD6;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagenes/back-3.jpg);
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Comfortaa', cursive;
+}
+
+.head {
+
+    /* height: 50rem; */
+    /* width: 100%; */
+    /* position: fixed;
+     */
+}
+
+#navegador {
+    background-color: var(--gris);
+}
+
+.enlaces {
+    color: var(--azul);
+    /* font-size: 20px; */
+    font-size: 126%;
+    font-weight: 600;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content {
+    color: var(--blanco);
+}
+
+.target{
+    padding: 3%;
+    text-align: justify;
+}
+
+.title{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#perfil {
+    width: 40%;
+    height: auto;
+}
+
+.imagen{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* habilidades */
+.item-habilidades {
+    animation: both;
+    text-align: center;
+}
+
+
+/* items lab */
+.img-item{
+    width: 30%;
+    height: auto;
+    margin: 12px;
+}
