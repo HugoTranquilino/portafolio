@@ -10,16 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@514&family=Indie+Flower&display=swap"
-        rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@514&family=Indie+Flower&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/css/imagehover.min.css">
     <title>Hugo Tranquilino</title>
 </head>
 
 <body>
-    <header>
-        <div class="head">
-            <nav id="navegador" class="navbar navbar-expand-lg navbar-light">
+    <header class="banner">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" id="contacto" class="nav__items">Contactame</a>
+                <a href="#first-item" id="home" class="nav__items">Sobre Mí</a>
+                <a href="#skills" id="habilidades" class="nav__items">Habilidades</a>
+                <a href="#second-item" id="work" class="nav__items">Mi Experiencia</a>
+            </nav>
+
+            <section class="welcome">
+                <h1 class="title_p">Hola soy Hugo Tranquilino Desarrollador Web</h1>
+                <p id="subtitle">Entusiasta por aprender y construir algo nuevo cada día</p>
+                <span>
+                    <a href="#" class="btn-contacto">Contactame ahora</a>
+                </span>
+            </section>
+            <!-- <nav id="navegador" class="nav navbar navbar-expand-lg navbar-light">
                 <a id="home" class="nav-link enlaces">Sobre Mí</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,11 +49,187 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav> -->
+        </div>
+        <div class="wave">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffffff;"></path>
+            </svg>
         </div>
     </header>
 
-    <div id="first-item" class="content">
+    <main>
+        <div class="container">
+            <section id="first-item" class="section">
+                <div id="i-am" class="col-md-12">
+                    <center>
+                        <h1 class="title">Sobre Mí</h1>
+                    </center>
+                    <div class="row caja">
+                        <div class="col-md-6">
+                            <div class="target">
+                                <p>¡Hola! 😃</p>
+                                <p>
+                                    Soy Hugo desarrollador web junior. En los últimos años he hecho de mi hobbie un
+                                    empleo
+                                    formal, dentro
+                                    del cual he conocido a muchas personas con las que he tenido el gusto de trabajar y
+                                    compartir mis conocimientos.
+                                </p>
+                                <p>
+                                    Me gusta estar constantemente preparandome para de esta manera afinar mis
+                                    conocimientos y
+                                    desempeñar de una forma más optima mi trabajo.
+                                </p>
+                                <p>
+                                    Fuera del mundo tecnológico soy un todólogo 😅, me gusta mucho la carpintería, las
+                                    caminatas
+                                    largas, paseos en bicicleta y dar un buen acabado a los muebles improvisados que
+                                    realizo con
+                                    pedazos de madera que ya no tienen la calidad optima para un mueble de lujo, a la
+                                    cual trato
+                                    de darle un segundo uso.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <center>
+                                <div class="imagen">
+                                    <img id="perfil" src="assets/imagenes/black.svg" alt="">
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="section">
+                <div class="">
+                    <div class="col-md-12">
+                        <center>
+                            <h1 class="title">Habilidades</h1>
+                        </center>
+                        <div class="col-md-12 row">
+                            <div class="col-md-4">
+                                <p class="item-habilidades">HTML5</p>
+                                <p class="item-habilidades">CSS3</p>
+                                <p class="item-habilidades">JavaScript</p>
+                                <p class="item-habilidades">PHP</p>
+                                <p class="item-habilidades">CodeIgniter</p>
+                                <p class="item-habilidades">PostgreSQL</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="item-habilidades">MySQL</p>
+                                <p class="item-habilidades">JQuery</p>
+                                <p class="item-habilidades">Bootstrap</p>
+                                <p class="item-habilidades">Firebase</p>
+                                <p class="item-habilidades">Consumo e implementación de API REST</p>
+                                <p class="item-habilidades">Consumo e implementación de WebService SOAP</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="item-habilidades">React</p>
+                                <p class="item-habilidades">Arduino</p>
+                                <p class="item-habilidades">AutoCAD</p>
+                                <p class="item-habilidades">CorelDraw</p>
+                                <p class="item-habilidades">Cisco PT</p>
+                                <p class="item-habilidades">Adobe Photoshop</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="second-item" class="section">
+                <div class="col-md-12">
+                    <center>
+                        <h1 class="title">Sobre mi trabajo</h1>
+                    </center>
+                    <div class="col-md-12 seccion-lab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <figure>
+                                    <img src="assets/imagenes/startup_isometric.svg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    Comencé en el área del desarrollo por hobbie, lanzándome como freelance creando
+                                    sitios para pequeñas y medianas empresas.
+                                </p>
+                                <p>
+                                    Todólogo por naturaleza e ingeniero en sistemas de profesión, gracias a la cual me
+                                    pude desempeñar como ingeniero en redes y telecomunicaciones dentro de la empresa
+                                    Onbit, ubicada en el puerto de Veracruz, México. Empresa enfocada al estudio, diseño
+                                    e implementación de tecnologías de información.
+                                </p>
+                                <p>
+                                    De manera formal me integre al área de desarrollo al laborar como desarrollador web
+                                    para la Secretaría de la Contraloría General de la ciudad de México, en donde afine
+                                    y compartí mis conocimientos con mis compañeros.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container footer_grid">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <nav class="nav nav_footer">
+                                <a href="#" id="contacto" class="nav_items_footer">Contactame</a>
+                                <a href="#first-item" id="home" class="nav_items_footer">Sobre Mí</a>
+                                <a href="#skills" id="habilidades" class="nav_items_footer">Habilidades</a>
+                                <a href="#second-item" id="work" class="nav_items_footer">Mi Experiencia</a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6">
+                            <section class="footer_contacto">
+                                <h3 class="footer_title">Contactame</h3>
+                                <div class="footer_icons">
+                                    <span class="footer-contacto_items">
+                                        <img class="icons-footer" src="assets/imagenes/github2.png" alt="">
+                                    </span>
+                                    <span class="footer-contacto_items">
+                                        <img class="icons-footer" src="assets/imagenes/mail.png" alt="">
+                                    </span>
+                                    <span class="footer-contacto_items">
+                                        <img class="icons-footer" src="assets/imagenes/twitter.png" alt="">
+                                    </span>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!-- <nav class="nav nav_footer">
+                    <a href="#" id="contacto" class="nav_items_footer">Contactame</a>
+                    <a href="#first-item" id="home" class="nav_items_footer">Sobre Mí</a>
+                    <a href="#skills" id="habilidades" class="nav_items_footer">Habilidades</a>
+                    <a href="#second-item" id="work" class="nav_items_footer">Mi Experiencia</a>
+                </nav> -->
+
+                <!-- <section class="footer_contacto">
+                    <h3 class="footer_title">Contactame</h3>
+                    <div class="footer_icons">
+                        <span class="footer-contacto_items">
+                            <img class="icons-footer" src="assets/imagenes/github2.png" alt="">
+                        </span>
+                        <span class="footer-contacto_items">
+                            <img class="icons-footer" src="assets/imagenes/mail.png" alt="">
+                        </span>
+                        <span class="footer-contacto_items">
+                            <img class="icons-footer" src="assets/imagenes/twitter.png" alt="">
+                        </span>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+    </footer>
+    <!-- <div id="first-item" class="content">
         <div id="i-am" class="col-md-12">
             <center>
                 <h1 class="title">Sobre Mí</h1>
@@ -107,20 +299,27 @@
                 </div>
             </div>            
         </div>
-    </div>
+    </div> -->
 
-    <div id="second-item" class="content">
+    <!-- <div id="second-item" class="content">
         <div id="list-trabajos"></div>
-    </div>
+    </div> -->
 
-    <footer>
-        <center>
-            <h2 id="creditos">Realizado con ♥ por Hugo</h2>
-        </center>
-    </footer>
+    <!-- <footer>
+        <div class="container-fluid footer">
+            <center>
+                <h2 id="creditos">Realizado con ♥ por Hugo</h2>
+            </center>
+            <span class="contenedor-icons">
+                <img class="icons-footer" src="assets/imagenes/github.png" alt="">
+                <img class="icons-footer" src="assets/imagenes/mail.png" alt="">
+                <img class="icons-footer" src="assets/imagenes/twitter.png" alt="">
+            </span>
+        </div>
+    </footer> -->
 </body>
 <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
-<script src="assets/js/entrelineas.js"></script>
+<!-- <script src="assets/js/entrelineas.js"></script> -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 
 </html>
