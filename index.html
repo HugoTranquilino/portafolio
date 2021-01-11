@@ -21,35 +21,40 @@
 <body>
     <header class="banner">
         <div class="container">
-            <nav class="nav">
-                <a href="#" id="contacto" class="nav__items">Contactame</a>
-                <a href="#first-item" id="home" class="nav__items">Sobre Mí</a>
-                <a href="#skills" id="habilidades" class="nav__items">Habilidades</a>
-                <a href="#second-item" id="work" class="nav__items">Mi Experiencia</a>
-            </nav>
-
-            <section class="welcome">
-                <h1 class="title_p">Hola soy Hugo Tranquilino Desarrollador Web</h1>
-                <p id="subtitle">Entusiasta por aprender y construir algo nuevo cada día</p>
-                <span>
-                    <a href="#" class="btn-contacto">Contactame ahora</a>
-                </span>
-            </section>
-            <!-- <nav id="navegador" class="nav navbar navbar-expand-lg navbar-light">
-                <a id="home" class="nav-link enlaces">Sobre Mí</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="nav navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a id="work" class="enlaces nav-link">Experiencia / Trabajos <span
+                            <a id="contacto" class="nav__items " href="#">Contactame<span
                                     class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav__items " href="#">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav__items " href="#">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav__items " href="#">Mi Experiencia</a>
                         </li>
                     </ul>
                 </div>
-            </nav> -->
+            </nav>
+            <section class="welcome">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 class="title_p">Hola soy Hugo Tranquilino Desarrollador Web</h1>
+                    <h2 id="subtitle">Entusiasta por aprender y construir algo nuevo cada día</h2>
+                </div>
+                <div id="enlace_contacto">
+                    <a href="#" >
+                        <button class="btn btn-contacto">Contactame ahora</button>
+                    </a>
+                </div>
+            </section>
         </div>
         <div class="wave">
             <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
@@ -62,7 +67,7 @@
     <main>
         <div class="container">
             <section id="first-item" class="section">
-                <div id="i-am" class="col-md-12">
+                <div id="i-am" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <center>
                         <h1 class="title">Sobre Mí</h1>
                     </center>
@@ -103,43 +108,54 @@
                     </div>
                 </div>
             </section>
-            <section id="skills" class="section">
-                <div class="">
-                    <div class="col-md-12">
-                        <center>
-                            <h1 class="title">Habilidades</h1>
-                        </center>
-                        <div class="col-md-12 row">
-                            <div class="col-md-4">
-                                <p class="item-habilidades">HTML5</p>
-                                <p class="item-habilidades">CSS3</p>
-                                <p class="item-habilidades">JavaScript</p>
-                                <p class="item-habilidades">PHP</p>
-                                <p class="item-habilidades">CodeIgniter</p>
-                                <p class="item-habilidades">PostgreSQL</p>
-                            </div>
-                            <div class="col-md-4">
-                                <p class="item-habilidades">MySQL</p>
-                                <p class="item-habilidades">JQuery</p>
-                                <p class="item-habilidades">Bootstrap</p>
-                                <p class="item-habilidades">Firebase</p>
-                                <p class="item-habilidades">Consumo e implementación de API REST</p>
-                                <p class="item-habilidades">Consumo e implementación de WebService SOAP</p>
-                            </div>
-                            <div class="col-md-4">
-                                <p class="item-habilidades">React</p>
-                                <p class="item-habilidades">Arduino</p>
-                                <p class="item-habilidades">AutoCAD</p>
-                                <p class="item-habilidades">CorelDraw</p>
-                                <p class="item-habilidades">Cisco PT</p>
-                                <p class="item-habilidades">Adobe Photoshop</p>
-                            </div>
-                        </div>
-                    </div>
+            <section id="skills" class="section">                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <center>
+                        <h1 class="title">skills</h1>
+                    </center>
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img src="assets/icons/html-5.png" alt="" class="items_icons">
+                    <img src="assets/icons/css.png" alt="" class="items_icons">
+                    <img src="assets/icons/sass.png" alt="" class="items_icons">
+                    <img src="assets/icons/javascript.png" alt="" class="items_icons">
+                    <img src="assets/icons/jquery.png" alt="" class="items_icons">
+                    <img src="assets/icons/php.png" alt="" class="items_icons">
+                    <img src="assets/icons/codeigniter.png" alt="" class="items_icons">
+                    <img src="assets/icons/sql.png" alt="" class="items_icons">
+                    <img src="assets/icons/postgresql.png" alt="" class="items_icons">
+                    <img src="assets/icons/mysql.png" alt="" class="items_icons">
+                    <img src="assets/icons/firebase.png" alt="" class="items_icons">
+                    <img src="assets/icons/potman.png" alt="" class="items_icons">
+                    <img src="assets/icons/github.png" alt="" class="items_icons">
+                    <img src="assets/icons/react.png" alt="" class="items_icons">
+                    <img src="assets/icons/photoshop.png" alt="" class="items_icons">
+                    <img src="assets/icons/cisco.png" alt="" class="items_icons">
+                    <img src="assets/icons/corel.png" alt="" class="items_icons">
+                    <img src="assets/icons/autocad.png" alt="" class="items_icons">
+                </div>
+
+                    <!-- <span><img src="assets/icons/html-5.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/css.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/sass.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/javascript.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/jquery.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/php.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/codeigniter.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/sql.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/postgresql.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/mysql.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/firebase.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/potman.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/github.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/react.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/photoshop.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/cisco.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/corel.png" alt="" class="items_icons"></span>
+                    <span><img src="assets/icons/autocad.png" alt="" class="items_icons"></span> -->
             </section>
             <section id="second-item" class="section">
-                <div class="col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <center>
                         <h1 class="title">Sobre mi trabajo</h1>
                     </center>
@@ -177,7 +193,7 @@
     <footer>
         <div class="footer">
             <div class="container footer_grid">
-                <div class="col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="row">
                         <div class="col-md-6">
                             <nav class="nav nav_footer">
@@ -191,15 +207,13 @@
                             <section class="footer_contacto">
                                 <h3 class="footer_title">Contactame</h3>
                                 <div class="footer_icons">
-                                    <span class="footer-contacto_items">
-                                        <img class="icons-footer" src="assets/imagenes/github2.png" alt="">
-                                    </span>
-                                    <span class="footer-contacto_items">
-                                        <img class="icons-footer" src="assets/imagenes/mail.png" alt="">
-                                    </span>
-                                    <span class="footer-contacto_items">
-                                        <img class="icons-footer" src="assets/imagenes/twitter.png" alt="">
-                                    </span>
+                                    <center>
+                                        <span class="footer-contacto_items">
+                                            <img class="icons-footer" src="assets/imagenes/github2.png" alt="">
+                                            <img class="icons-footer" src="assets/imagenes/mail.png" alt="">
+                                            <img class="icons-footer" src="assets/imagenes/twitter.png" alt="">
+                                        </span>
+                                    </center>
                                 </div>
                             </section>
                         </div>
