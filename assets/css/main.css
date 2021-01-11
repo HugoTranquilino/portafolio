@@ -17,7 +17,7 @@ body {
 
 .banner {
     height: 100vh;
-    background-image: var(--background), url('assets/imagenes/imagen-2.jpg');
+    background-image: var(--background), url('../imagenes/imagen-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
