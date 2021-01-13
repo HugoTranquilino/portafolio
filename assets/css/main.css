@@ -10,6 +10,7 @@
     --azul: #233CD6;
     --esmeralda:#aaffb3;
     --hueso: rgba(255, 255, 255, 0.665);
+    --transparente:#fff0;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
 .nav {
     align-items: center;
     font-weight: 700;
-    background:var(--gris) !important;
+    background:var(--transparente) !important;
     border-radius: 2rem;
 }
 
@@ -286,6 +287,13 @@ footer {
         margin-top: 1%;
     }
 
+    #navbarNav {
+        border: 1px solid var(--blanco);
+        border-radius: 1rem;
+        margin-top: 4px;
+        margin-bottom: -23px;
+    }
+
     .title_p {
         margin-top: 0rem;
     }
@@ -321,6 +329,11 @@ footer {
 }
 
 @media (max-width: 576px) {
+    #navbarNav{
+        margin-top: 6px;
+        margin-bottom: -115px;
+    }
+
     .btn.btn-contacto {
         padding: 1px 6px;
     }
